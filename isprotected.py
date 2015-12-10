@@ -1,6 +1,6 @@
 import urllib2
 from subprocess import call
-twitter_handle = "andymcblane"
+twitter_handle = ""
 data = urllib2.urlopen("https://twitter.com/" + twitter_handle)
 y = "Tweets are protected"
 if y not in data.read():
